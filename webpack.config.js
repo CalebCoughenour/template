@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Template',
+      title: 'Shape Tracker',
       template: './src/index.html',
       inject: 'body'
     })
@@ -23,14 +23,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /.css$/,
         use: [
           'style-loader',
           'css-loader'
         ]
       },
       {
-        test: /\.js$/,
+        test: /.js$/,
         exclude: /node_modules/,
         loader: "eslint-loader"
       }
