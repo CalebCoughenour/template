@@ -10,6 +10,9 @@
 * _Javascript_
 * _JQuery_
 * _CSS_
+* _Node.js_
+* _npm_
+* _webpack_
 
 ## Description
 
